@@ -1,24 +1,10 @@
-# README
+# DAY 1 - BACK-END ⚙️
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## STEP 1 - Rails App generation
+- Create a new Rails app called "rails-cookbook", and the relative repository in your Git hub account
 
-Things you may want to cover:
+## STEP 2 - DB schema
+- Draw the schema using the spreadsheet as reference
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## STEP 3 - Models/Tables Generation
+- Create the models with the right attributes and references.
