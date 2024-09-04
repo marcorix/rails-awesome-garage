@@ -8,3 +8,7 @@
 
 ## STEP 3 - Models/Tables Generation
 - Create the models with the right attributes and references.
+
+## STEP 5 - Models Associations/Validations
+- Implement the model with the right associations and validations:
+
