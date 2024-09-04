@@ -14,3 +14,7 @@
 
 ## STEP 5 - Seed file
 - Create two cars, each with a different owner
+
+## STEP 6 - Route-Controller-View for Cars
+- Navigate to the '/cars' path, where you should be able to view a list of all the cars currently stored in the database
+- Navigate to the '/cars/1' path, where you should be able to view all the details of a car
