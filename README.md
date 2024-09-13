@@ -20,5 +20,12 @@
 - Navigate to the '/cars/1' path, where you should be able to view all the details of a car
 
 ## STEP 7 - Reviews
-- On the Car Show page, users should be able to leave a new review. Implement a form (simple_form) that allows users to submit new reviews.
+- On the Car Show page, users should be able to leave a new review. Implement a    form (simple_form) that allows users to submit new reviews.
 - On the Car Show page, users should be able to read all the existing reviews.
+
+## STEP 8 - Favourites
+- On the Car Show page, users should be able to save a car to their favourites.
+  Implement a form (simple_form) that allows users to create a new favourite.
+  Each car can only be favorited once!(use an if/else statement in the view)
+- Users can navigate to '/favourites' and see all the favourite cars.
+  Each car can be removed from the list by clicking on a 'delete' button

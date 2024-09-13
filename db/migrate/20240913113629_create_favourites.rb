@@ -1,6 +1,6 @@
-class CreateLikes < ActiveRecord::Migration[7.1]
+class CreateFavourites < ActiveRecord::Migration[7.1]
   def change
-    create_table :likes do |t|
+    create_table :favourites do |t|
       t.references :car, null: false, foreign_key: true
 
       t.timestamps

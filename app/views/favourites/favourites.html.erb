@@ -1,0 +1,10 @@
+<h1>Your favourite cars</h1>
+<% @favourites.each do |favourite| %>
+  <p><%= favourite.car.model %></p>
+  <p><%= favourite.car.brand %></p>
+  <%= link_to 'Remove from Favourites',
+    favourite_path(favourite),
+    data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
+  %>
+  <p>-------</p>
+<% end %>

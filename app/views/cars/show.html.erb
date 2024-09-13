@@ -4,6 +4,14 @@
 <p>Fuel: <%= @car.fuel %></p>
 <p>Owner: <%= @car.owner.nickname %></p>
 
+<% if @car.favourites.empty? %>
+  <%= simple_form_for [@car, @favourite] do |f| %>
+    <%= f.submit 'Save in my Favourites' %>
+  <% end %>
+<% else %>
+  <p>This car is listed in your favourites!</p>
+<% end %>
+
 <hr>
 
 <h2>Leave a review</h2>
