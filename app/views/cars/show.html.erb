@@ -3,3 +3,20 @@
 <p>Year: <%= @car.year %></p>
 <p>Fuel: <%= @car.fuel %></p>
 <p>Owner: <%= @car.owner.nickname %></p>
+
+<hr>
+
+<h2>Leave a review</h2>
+<%= simple_form_for [@car, @review] do |f|%>
+  <%= f.input :comment %>
+  <%= f.input :rating, collection: 0..5 %>
+  <%= f.submit 'Submit' %>
+<% end %>
+
+<hr>
+
+<% @car.reviews.each do |review| %>
+  <p><%= review.comment %></p>
+  <p><%= '⭐️' * review.rating %></p>
+  <p>-------------------</p>
+<% end %>
