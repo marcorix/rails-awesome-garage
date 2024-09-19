@@ -39,3 +39,6 @@
 # DAY 2 - FRONT-END 🎨
 
 ## STEP 1 - Setup Rails App for Front-end
+
+## STEP 2 - Landing page
+- Design a landing page to be displayed at the root URL ('/').Since this page isn't linked to any model or database table, create a new controller named Pages to handle it.
