@@ -33,3 +33,9 @@
 
 ## STEP 9 - Make it navigable
 - Users can navigate the app through accessible links.
+
+
+
+# DAY 2 - FRONT-END 🎨
+
+## STEP 1 - Setup Rails App for Front-end

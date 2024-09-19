@@ -8,7 +8,7 @@
 
 <% if @car.favourites.empty? %>
   <%= simple_form_for [@car, @favourite] do |f| %>
-    <%= f.submit 'Save in my Favourites' %>
+    <%= f.submit 'Save in my Favourites', class: "btn btn-info" %>
   <% end %>
 <% else %>
   <p>This car is listed in your favourites!</p>
