@@ -19,14 +19,19 @@
   object-position: center;
 }
 
-.card-trip > h2 {
-  font-size: 22px;
+h1 {
+  color: white;
+}
+
+h2 {
+  font-size: 24px;
   font-weight: bold;
+  color: red;
   margin: 0;
 }
 
-.card-trip > h3 {
-  font-size: 18px;
+h3 {
+  font-size: 20px;
   margin: 0;
 }
 
@@ -42,7 +47,7 @@
 
 .card-trip-infos h2 {
   color: gray;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .card-trip-infos {
