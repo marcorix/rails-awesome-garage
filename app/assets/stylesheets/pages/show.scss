@@ -1,0 +1,60 @@
+.show-car {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  margin-bottom: 50px;
+}
+
+.show-car img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.show-car-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px;
+}
+
+.show-car-info {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  p {
+    font-size: 18px;
+    display: inline;
+  }
+}
+
+.reviews-form {
+  width: 50%;
+  text-align: right;
+}
+
+.favourite-btn {
+  position: absolute;
+  right: -356px;
+  top: -402px;
+  padding: 4px;
+  p {
+    color: lightgray
+  }
+}
+
+.favourite-btn input[type="submit"] {
+  color: white;
+}
+
+.reviews-list {
+  padding: 16px;
+  p {
+    display: inline;
+  }
+}

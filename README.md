@@ -42,3 +42,11 @@
 
 ## STEP 2 - Landing page
 - Design a landing page to be displayed at the root URL ('/').Since this page isn't linked to any model or database table, create a new controller named Pages to handle it.
+
+## STEP 3 - Navbar
+- Create the navbar and render it as partial in every page
+
+## STEP 4 - Design as you want
+- Create a new migration to add the "image_url" column to the cars table.
+- Display the photo of the car in the index and in the show page
+- Design the application as you prefer

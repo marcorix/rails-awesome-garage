@@ -1,8 +1,10 @@
-<h1>Awesome Garage</h1>
-<%= link_to 'My favourite cars', favourites_path %>
-<% @cars.each do |car| %>
-  <%= link_to car_path(car) do %>
-    <p>Brand: <%= car.brand %> | Model: <%= car.model %></p>
-  <% end %>
-<hr>
-<% end %>
+<%= render 'shared/navbar' %>
+
+<div class="container w-50">
+  <div class="wrapper">
+    <% @cars.each do |car| %>
+      <%= render 'car', car: car %>
+    <% end %>
+  </div>
+
+</div>

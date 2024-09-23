@@ -1,0 +1,18 @@
+<div class="card-trip">
+  <div class="card-trip-top">
+    <h2><%= car.brand %></h2>
+    <h3><%= car.model %></h3>
+    <p><%= car.created_at.strftime("%a %b %e at %l:%M %p") %></p>
+  </div>
+  <%= link_to car_path(car) do %>
+    <%= image_tag car.image_url %>
+  <% end %>
+  <div class="card-trip-infos">
+    <%= link_to car_path(car) do %>
+      <h2><i class="fa-regular fa-comment"></i> Comment </h2>
+    <% end %>
+    <div class="owner-name">
+      <%= car.owner.nickname %>
+    </div>
+  </div>
+</div>
