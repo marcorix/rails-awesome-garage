@@ -11,7 +11,7 @@
 
 .card-product img {
   height: 100%;
-  width: 120px;
+  width: 220px;
   object-fit: cover;
 }
 
@@ -38,11 +38,14 @@
 .card-product-infos {
   padding: 16px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
   width: 100%;
   i {
     font-size: 20px;
-    color: red;
+    color: grey;
+    &:hover {
+      color: red;
+    }
   }
 }

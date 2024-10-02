@@ -1,6 +1,6 @@
 <%= render 'shared/navbar' %>
-<div class="container w-50">
-  <div class="wrapper">
+<div class="container">
+  <div class="wrapper w-75">
     <h2>My Garage</h2>
     <% @favourites.each do |favourite| %>
       <div class="card-product">
@@ -11,7 +11,7 @@
             <h3><%= favourite.car.model %></h3>
             <p><%= favourite.car.year %> | <%= favourite.car.fuel %></p>
           </div>
-          <%= link_to favourite_path(favourite), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} do %>
+          <%= link_to favourite_path(favourite), data: {turbo_method: :delete, turbo_confirm: "Do you really want to take the #{favourite.car.model} out of your garage?"} do %>
             <i class="fa-solid fa-trash"></i>
           <% end %>
         </div>

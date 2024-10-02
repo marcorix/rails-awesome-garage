@@ -1,7 +1,7 @@
 # DAY 1 - BACK-END ⚙️
 
 ## STEP 1 - Rails App generation
-- Create a new Rails app called "rails-cookbook", and the relative repository in your Git hub account
+- Create a new Rails app called "rails-awesome-garage", and the relative repository in your Git hub account
 
 ## STEP 2 - DB schema
 - Draw the schema using the spreadsheet as reference
@@ -13,7 +13,7 @@
 - Implement the model with the right associations and validations.
 
 ## STEP 5 - Seed file
-- Create two cars, each with a different owner.
+- Create at least 3 cars, each with a different owner.
 
 ## STEP 6 - Route-Controller-View for Cars
 - Navigate to the '/cars' path, where you should be able to view a list of all the cars currently stored in the database

@@ -22,7 +22,7 @@
 
 .show-car-info {
   width: 50%;
-  height: 100%;
+  height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30,6 +30,7 @@
   p {
     font-size: 18px;
     display: inline;
+    margin: 0;
   }
 }
 
@@ -40,7 +41,7 @@
 
 .favourite-btn {
   position: absolute;
-  right: -356px;
+  right: -373px;
   top: -402px;
   padding: 4px;
   p {
