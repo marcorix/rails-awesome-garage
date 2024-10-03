@@ -7,12 +7,12 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "pages#landing_page"
-  get '/favourites', to: 'favourites#favourites'
+
 
   resources :cars do
     resources :reviews, only: [:create]
     resources :favourites, only: [:create]
   end
 
-  resources :favourites, only: :destroy
+  resources :favourites, only: [:index, :destroy]
 end
